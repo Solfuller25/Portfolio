@@ -3,7 +3,7 @@ const gitHubData = await fetch('https://api.github.com/users/Solfuller25', {
     method: 'GET',
     headers: { 
         'Content-Type': 'application/json',
-        Authorization: 'Bearer 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'
+        Authorization: 'Bearer secret_here'
     }
 }).then(response => response.json()
     .then(data => ({ data: data }))
