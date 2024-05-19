@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather';
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    height: 85%;
+}
+
+input {
+    background-color: #c7d1d1;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+#emailBody {
+    height: 300px;
+    width: 500px;
+    background-color: #c7d1d1;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 20px;
+    font-family: 'Merriweather';
+}
+
+.content-button {
+    color: #000;
+    border-color: #000;
+}
+
+.text-link {
+    color: #000;
+}
+
+hr {
+    color:#000;
+    width:50%;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 50px;
+}

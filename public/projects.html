@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/projects.css">
+</head>
+<body>
+    <div class="container">
+        <div id="linksDiv">
+            <a id="homeLink" class="button" href="index.html">Home</a>
+            <a id="projectsLink" class="button" href="projects.html">Projects</a>
+            <a id="contactLink" class="button" href="contact.html">Contact</a>
+        </div>
+        <div class="projects-content">
+            <h1>Projects</h1>
+            <hr>
+            <div id="projects-list">
+                <div class="project" name="project1">
+                    <a id="twitterLink" target="_blank" href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-apr-2024-team-1"><h3>Twitter API</h3></a>
+                    <div class="project-description">
+                        A RESTful Web Service to mimic the popular social media site known as Twitter, or X. 
+                        This project was built in Java using the SpringBoot framework to implement various endpoints 
+                        that could be used to create and delete, as well as reply to tweets and other functionality.
+                    </div>
+                    <span class="tech-environment-header">
+                        Environment
+                    </span>
+                    <div class="tech-environment">
+                        Java, SpringBoot, JPA, PostgreSQL, PGAdmin, Postman, Git, Eclipse, Maven
+                    </div>
+                </div>
+                <div class="project" name="project2">
+                    <a id="roverLink" target="_blank" href="https://github.com/Solfuller25/MarsRover"><h3>Mars Rover</h3></a>
+                    <div class="project-description">
+                        My solution to a coding challenge to create a command line interface that emulates communications between a 
+                        remote user and a rover landing on a isolated plateau on Mars. The user can provide various commands to 
+                        navigate the Mars Rover, and the software will provide heading and location details back to the user.
+                    </div>
+                    <span class="tech-environment-header">
+                        Environment
+                    </span>
+                    <div class="tech-environment">
+                        C#, Visual Studio
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" 
+            integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" 
+            crossorigin="anonymous"></script>
+        <script type="module" src="../js/index.js"></script>
+    </div>
+</body>
+</html>
